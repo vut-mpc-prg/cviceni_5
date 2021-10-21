@@ -39,7 +39,7 @@ V R implementujte Brute-force Motif Search algoritmus.
     Score <- function(Sek, s, L)
    ```
    Vstupy:
-   * Sek - soubor sekvencí DNA (např. soubor `seq_skore.fasta`)
+   * Sek - soubor sekvencí DNA (např. soubor `seq_score.fasta`)
    * s - vektor počátečních pozic motivů
    * L - délka motivu
    
