@@ -29,8 +29,7 @@ V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudok�
     13 return
    ```    
     Upřesnění: L= deltaX, Delete(y,L) vymaže hodotu y z L delta(y,X) je vektor délek mezi hodnotou y a všemi hodnotami X. 
-   ```
-    
+
 Nápověda: Vytvořte externí funkci Remove(), která bude z vektoru L odstraňovat použité délky delta.
 
 ### Úkol 3 - Brute-force vyhledávání motivu
