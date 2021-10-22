@@ -6,13 +6,13 @@ Následně upravte pro všechny možné uspořádání fragmentů.
 
 ### Úkol 2 - Partial Digest Problem (PDP)
 V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudokódu:
-     ```
+        ```
     PartialDigestProblem(L)
     1 width <- maximální prvek z L
     2 Delete(width,L)
     3 X <- {0, width}
     4 Place(L,X)
-    ```
+
     Place(L,X)
     1 if L je prázdné
     2   output X
@@ -27,6 +27,8 @@ V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudok�
     11  Place(L,X)
     12  odstraň width-y z X a přidej délky delta(width-y, X) do L
     13 return
+    
+    ```
     
 Upřesnění: L= deltaX, Delete(y,L) vymaže hodotu y z L delta(y,X) je vektor délek mezi hodnotou y a všemi hodnotami X. 
 Nápověda: Vytvořte externí funkci Remove(), která bude z vektoru L odstraňovat použité délky delta.
