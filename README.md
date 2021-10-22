@@ -6,13 +6,13 @@ Následně upravte pro všechny možné uspořádání fragmentů.
 
 ### Úkol 2 - Partial Digest Problem (PDP)
 V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudokódu:
-    ````
+    ```
     PartialDigestProblem(L)
     1 width <- maximální prvek z L
     2 Delete(width,L)
     3 X <- {0, width}
     4 Place(L,X)
-    ````
+     ```
     Place(L,X)
     1 if L je prázdné
     2   output X
