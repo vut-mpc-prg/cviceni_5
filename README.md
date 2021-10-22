@@ -6,7 +6,7 @@ Následně upravte pro všechny možné uspořádání fragmentů.
 
 ### Úkol 2 - Partial Digest Problem (PDP)
 V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudokódu:
-![pseudokod](https://user-images.githubusercontent.com/61159143/138432078-dd18c12d-ba6a-47b9-aa44-99d9d46090df.PNG)
+
 
 
 ### Úkol 3 - Brute-force vyhledávání motivu
