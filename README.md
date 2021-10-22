@@ -6,8 +6,32 @@ Následně upravte pro všechny možné uspořádání fragmentů.
 
 ### Úkol 2 - Partial Digest Problem (PDP)
 V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudokódu:
+    ```
+    PartialDigestProblem(L)
+    1 width <- maximální prvek z L
+    2 Delete(width,L)
+    3 X <- {0, width}
+    4 Place(L,X)
+    
+    Place(L,X)
+    1 if L je prázdné
+    2   output X
+    3   return
+    4 y <- maximální prvek z L 
+    5 if delta(y,X) je součástí podmnožiny L
+    6   přidej y do X a odstraň délky delta(y,X) z L
+    7   Place(L,X)
+    8   odstraň y z X a přidej délky delta(y,X) do L
+    9 if delta(width-y,X) je součástí podmnožiny L
+    10  přidej width-y do X a odstraň délky delta(width-y, X) z L
+    11  Place(L,X)
+    12  odstraň width-y z X a přidej délky delta(width-y, X) do L
+    13 return
+    
+    Upřesnění: L= deltaX, Delete(y,L) vymaže hodotu y z L delta(y,X) je vektor délek mezi hodnotou y a všemi hodnotami X. 
+   ```
 
-
+Nápověda: Vytvořte externí funkci Remove(), která bude z vektoru L odstraňovat použité délky delta.
 
 ### Úkol 3 - Brute-force vyhledávání motivu
 V R implementujte Brute-force Motif Search algoritmus.
