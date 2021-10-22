@@ -8,7 +8,6 @@ Následně upravte pro všechny možné uspořádání fragmentů.
 V R implementujte rekurzivní algoritmus pro PDP podle následujícího pseudokódu:
 ![pseudokod](https://user-images.githubusercontent.com/61159143/138432078-dd18c12d-ba6a-47b9-aa44-99d9d46090df.PNG)
 
-**Nápověda:** Vytvořte externí funkci `Remove()`, která bude z vektoru `L` odstraňovat použité délky.
 
 ### Úkol 3 - Brute-force vyhledávání motivu
 V R implementujte Brute-force Motif Search algoritmus.
